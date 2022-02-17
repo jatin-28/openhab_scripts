@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "openhab_scripts"
+version = "0.1.0"
+description = ""
+authors = ["jatin <jatin_28@yahoo.co.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
