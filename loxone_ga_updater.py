@@ -17,6 +17,9 @@ def main(argv):
     except getopt.GetoptError:
         print('loxone.py -t -l -d')
         sys.exit(2)
+    if not opts:
+        print('loxone.py -t -l -d')
+        sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
             print('loxone.py -t --temperature -l --light -d --dimmer')
